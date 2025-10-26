@@ -72,3 +72,5 @@ EOF
 echo "[✔] Jump Server setup complete!"
 echo "Login via: ssh $ADMIN_USER@$(hostname -I | awk '{print $1}')"
 echo "Verify connectivity to mail nodes from here."
+# Replace YOUR.PUBLIC.IP.ADDRESS with your office/VPN IP.
+# Paste your public SSH key when prompted.
